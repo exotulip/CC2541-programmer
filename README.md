@@ -13,8 +13,8 @@ Firmware files must be 256KiB (262,144B) in size.
 ## Instructions:
 
 	$ sudo apt install raspberrypi-kernel-headers
-	$ git clone https://github.com/exotulip/raspi-CC2541-programmer
-	$ cd raspi-CC2541-programmer
+	$ git clone https://github.com/exotulip/CC2541-programmer
+	$ cd CC2541-programmer
 	$ ./compile.sh
 
 The desired GPIO lines must be specified in the "pins.cfg" file.
